@@ -1,3 +1,4 @@
 # freeCRM
 
-This is my First git project
+1) After cloning this project, user need to install TestNG plugIn from eclipse marketpalce
+2) ChromeBrowser must be >=76
