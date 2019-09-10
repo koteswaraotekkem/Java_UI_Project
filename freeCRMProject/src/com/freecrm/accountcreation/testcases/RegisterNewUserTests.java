@@ -65,7 +65,7 @@ public void multipleWindows(){
 	
 	
 	
-	@Test(enabled=false)
+	@Test(enabled=true)
 	public void createUser() throws InterruptedException{
 		
 		Thread.sleep(400);
