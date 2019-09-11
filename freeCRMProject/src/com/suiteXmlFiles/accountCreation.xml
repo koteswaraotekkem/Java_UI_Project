@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="accountCreation" configfailurepolicy="continue">
+	<test name="creatacc">
+		<classes>
+			<class name="com.freecrm.accountcreation.testcases.RegisterNewUserTests" />		
+			<methods>
+					<include name="multipleWindows" />
+					<!-- hi am sanit -->
+				<!-- 	<include name="ciscoEnableAccountwithTelnet" />
+					<include name="ciscoEnableAccountwithSSHasFollowingAccount" /> -->
+				</methods>
+			<!-- <class name="com.freecrm.accountcreation.testcases.ActionsClassTest" />		 -->		
+		</classes>
+		
+		
+	</test>
+</suite>

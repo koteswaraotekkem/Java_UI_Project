@@ -2,6 +2,7 @@ package com.freecrm.accountcreation.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.freecrm.base.CRMTestBase;
@@ -12,10 +13,10 @@ String srt;
 float fff;
 
 
-
+@Parameters
 @Test
 public void multipleWindows(){
-	
+	System.out.println("execure");
 }
 	
 	@Test(enabled=true)
