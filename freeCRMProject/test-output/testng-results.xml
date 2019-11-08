@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15189" started-at="2019-09-10T06:13:19 EDT" finished-at="2019-09-10T06:13:34 EDT">
+  <suite name="Default suite" duration-ms="6766" started-at="2019-11-07T16:34:07Z" finished-at="2019-11-07T16:34:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15189" started-at="2019-09-10T06:13:19 EDT" finished-at="2019-09-10T06:13:34 EDT">
-      <class name="com.freecrm.accountcreation.testcases.RegisterNewUserTests">
-        <test-method status="PASS" signature="createUser()[pri:0, instance:com.freecrm.accountcreation.testcases.RegisterNewUserTests@12948e2]" name="createUser" duration-ms="15146" started-at="2019-09-10T06:13:19 EDT" finished-at="2019-09-10T06:13:34 EDT">
+    <test name="Default test" duration-ms="6766" started-at="2019-11-07T16:34:07Z" finished-at="2019-11-07T16:34:14Z">
+      <class name="com.freecrm.accountcreation.testcases.ActionsClassTest">
+        <test-method status="PASS" signature="mouseHover()[pri:0, instance:com.freecrm.accountcreation.testcases.ActionsClassTest@5dfcfece]" name="mouseHover" duration-ms="6747" started-at="2019-11-07T22:04:08Z" finished-at="2019-11-07T22:04:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.freecrm.accountcreation.testcases.RegisterNewUserTests@12948e2]" name="afterClass" is-config="true" duration-ms="2" started-at="2019-09-10T06:13:34 EDT" finished-at="2019-09-10T06:13:34 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.freecrm.accountcreation.testcases.RegisterNewUserTests -->
+        </test-method> <!-- mouseHover -->
+      </class> <!-- com.freecrm.accountcreation.testcases.ActionsClassTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

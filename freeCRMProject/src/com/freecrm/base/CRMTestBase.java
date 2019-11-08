@@ -31,8 +31,11 @@ public class CRMTestBase {
 			 driver = new ChromeDriver();
 			 driver.manage().window().maximize();
 			 driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-			 
+			 driver.get(props.getProperty("url"));
 	}
+		else {
+			System.out.println("");
+		}
 }
 	
 	public String getID(){

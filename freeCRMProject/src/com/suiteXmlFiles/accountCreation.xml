@@ -10,7 +10,9 @@
 				<!-- 	<include name="ciscoEnableAccountwithTelnet" />
 					<include name="ciscoEnableAccountwithSSHasFollowingAccount" /> -->
 				</methods>
-			<!-- <class name="com.freecrm.accountcreation.testcases.ActionsClassTest" />		 -->		
+			<!-- <class name="com.freecrm.accountcreation.testcases.ActionsClassTest" />		 -->	
+			<class name="com.freecrm.accountcreation.testcases.ActionsClassTest" />
+				
 		</classes>
 		
 		
